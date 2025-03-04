@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    /* padding: 20px; */
+}
+.nav{
+    background-color: darkblue;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    box-shadow: 0px 0px 15px 3px rgba(31, 31, 31, 0.8);
+    
+}
+.nav1{
+    margin-top: 5px;
+    margin-right: 50px;  
+}
+.nav-info{
+    color: white;
+    /* padding: 5px; */
+    text-decoration: none;
+    font-size: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.banner-info{
+    width: 40%;
+}
+.banner-info h1{
+    font-size: 50px;
+}
+.banner-info h2{
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+}
+.banner-info p{
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner-img{
+    border: 10px solid rgb(240, 237, 233);
+    box-shadow: 0px 0px 15px 3px rgb(142, 142, 203);
+    height: 300px;
+    border-radius: 20px;
+}
+.port-img{
+    height: 300px;
+}
+/* skill section */
+.my-skill{
+    text-align: center;
+    font-size: 35px;
+    color: darkblue;
+    position: relative;
+    top: 30px;
+}
+.skill{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 120px;
+    /* margin-top: 50px; */
+}
+.skill-box{
+    background-color: black;
+    /* border: 10px solid rgb(27, 26, 26); */
+    width: 40%;
+    border-radius: 30px;
+    position: relative;
+    top: 50px;
+}
+.skill-box h2{
+    padding: 10px;
+    color: white;
+    margin: 10px 0;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.skill-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px black;
+  }
+
+/* about section */
+#About{
+    /* margin-top: 80px; */
+    display: flex;
+    justify-content: center;
+}
+.about-me{
+    text-align: center;
+    font-size: 35px;
+    color: darkblue;
+    margin-top: 100px;
+}
+.about-info{
+    width: 70%;
+    background-color: seashell;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    p{
+        font-size: 20px;
+    }
+}
+
+/* contact section  */
+#Contact {
+    text-align: center;
+    padding: 50px;
+    background: #f4f4f4;
+    margin-top: 30px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* footer section */
+footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: #333;
+    color: white;
+    p{
+        position: relative;
+        top: 20px;
+    }
+
+}
